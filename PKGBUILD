@@ -9,7 +9,7 @@ pkgdesc="a PC/SC driver for Linux/Mac OS X and it supports ACS CCID smart card r
 arch=('i686' 'x86_64')
 url="http://acsccid.sourceforge.net/"
 license=('LGPL2.1')
-depends=('pcsclite>=1.8.3' 'libusb-compat>=0.1.4')
+depends=('pcsclite>=1.8.3' 'libusb-compat>=0.1.4' 'flex')
 makedepends=('pcsclite>=1.8.3' 'libusb-compat>=0.1.4' 'flex' 'pkg-config')
 source=("https://downloads.sourceforge.net/acsccid/acsccid-${pkgver}.tar.bz2")
 sha256sums=('9dce72cd25a1d2229fb8eb539ca3eca02d6b222aefb3d14e8b58a6deaebc6913')

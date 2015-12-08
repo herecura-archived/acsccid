@@ -12,6 +12,7 @@ pkgbase = acsccid
 	makedepends = pkg-config
 	depends = pcsclite>=1.8.3
 	depends = libusb-compat>=0.1.4
+	depends = flex
 	source = https://downloads.sourceforge.net/acsccid/acsccid-1.1.1.tar.bz2
 	sha256sums = 9dce72cd25a1d2229fb8eb539ca3eca02d6b222aefb3d14e8b58a6deaebc6913
 
