@@ -1,0 +1,1 @@
+update_pkgver=$(wget -q -O- http://acsccid.sourceforge.net | sed -nr 's/.*a href.*acsccid-(.*)\.tar.bz2.*/\1/p')
